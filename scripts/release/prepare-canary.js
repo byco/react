@@ -23,6 +23,8 @@ const run = async () => {
       params.build = await getLatestMasterBuildNumber();
     }
 
+    /* here's a comment */
+    
     await checkEnvironmentVariables(params);
     await downloadBuildArtifacts(params);
 
